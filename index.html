@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <style>
+            body {
+                margin: 0;
+            }
+
+            p,
+            h1,
+            h2,
+            h3 {
+                font-family: Arial;
+                margin: 5px;
+            }
+
+            .container {
+                position: absolute;
+                width: 100vw;
+                height: 100vh;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 0.3fr 2.5fr;
+                gap: 0px 0px;
+                grid-template-areas:
+                    "topbar"
+                    "content";
+            }
+
+            .topbar {
+                grid-area: topbar;
+                background-color: #333;
+                color: white;
+                font-family: Arial;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .content {
+                display: flex;
+                GAP: 15px;
+                grid-area: content;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .content-panel {
+                grid-area: content-panel;
+            }
+
+            #code-snippet-creator-bttn {
+                background-color: black;
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                cursor: pointer;
+                display: flex;
+                border-radius: 6px;
+                transition: ease 0.35s;
+                color: white;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            #code-snippet-creator-bttn:hover {
+                transform: scale(1.1);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="topbar">
+                <h1>Programmer Tools</h1>
+            </div>
+            <div class="content">
+                <div class="content-panel">
+                    <div id="code-snippet-creator-bttn" onclick="window.location.href='code-snippet-creator.html'">
+                        <p>Code Snippet</p>
+
+                        <p style="font-size: small; color: yellow;">By: Shawny</p>
+                    </div>
+                </div>
+                <div class="content-panel">
+                    <div id="code-snippet-creator-bttn" onclick="alert('This feature is in development!')">
+                        <p>Coming soon...</p>
+
+                        <p style="font-size: small; color: green;">In development</p>
+                    </div>
+                </div>
+                <div class="content-panel">
+                    <div id="code-snippet-creator-bttn" onclick="alert('This feature is in development!')">
+                        <p>Coming soon...</p>
+
+                        <p style="font-size: small; color: green;">In development</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </body>
+</html>
