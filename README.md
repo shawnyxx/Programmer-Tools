@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+# Programmer Tools
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A collection of useful tools for developers, built with React and Tailwind CSS. This web application includes various utilities to help streamline development workflows.
 
-## Available Scripts
+![Programmer Tools Screenshot](/api/placeholder/800/400)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### 1. Code Snippet Creator
+- Create beautiful code snippets with custom styling
+- Export snippets as PNG images
+- Copy snippets directly to clipboard
+- Adjustable preview width
+- Responsive design for all screen sizes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. JSON Formatter
+- Format and validate JSON data
+- Minify JSON
+- Copy formatted JSON to clipboard
+- Download formatted JSON as file
+- Real-time error validation
+- Split view layout (input/output)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Color Palette Generator (Coming Soon)
+- Generate harmonious color schemes
+- Export palettes in various formats
+- Save and manage custom palettes
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React 18
+- Tailwind CSS
+- Lucide Icons
+- HTML2Canvas
+- Create React App
 
-### `npm run build`
+## Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Before you begin, ensure you have installed:
+- Node.js (version 14 or higher)
+- npm (usually comes with Node.js)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/programmer-tools.git
+cd programmer-tools
+```
 
-### `npm run eject`
+2. Install dependencies:
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the development server:
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application will open in your default browser at `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+programmer-tools/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── CodeSnippetCreator/
+│   │   │   └── index.js
+│   │   ├── JsonFormatter/
+│   │   │   └── index.js
+│   │   └── ToolCard/
+│   │       └── index.js
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── package.json
+├── postcss.config.js
+├── README.md
+└── tailwind.config.js
+```
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Code Snippet Creator
+1. Click on the "Code Snippet Creator" card
+2. Paste or type your code in the input area
+3. Click "Preview" to see how it looks
+4. Use "Download PNG" to save as an image
+5. Use "Copy to Clipboard" to copy the image
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### JSON Formatter
+1. Click on the "JSON Formatter" card
+2. Paste your JSON in the input panel
+3. Click "Format" to prettify or "Minify" to compress
+4. Copy or download the formatted result
+5. Check for any validation errors
 
-### Code Splitting
+## Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Available Scripts
 
-### Analyzing the Bundle Size
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from Create React App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Authors
 
-### Advanced Configuration
+- Shawny
+- GitHub: [@shawnyxx](https://github.com/shawnyxx)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Crypt0zauruS
+- GitHub: [@Crypt0zauruS](https://github/Crypt0zauruS)
 
-### Deployment
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Icons by [Lucide Icons](https://lucide.dev/)
+- UI components inspired by [Tailwind CSS](https://tailwindcss.com/)
+- HTML to Canvas conversion by [HTML2Canvas](https://html2canvas.hertzen.com/)
 
-### `npm run build` fails to minify
+## Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For support, please open an issue in the GitHub repository or contact [your-email@example.com](mailto:your-email@example.com).
