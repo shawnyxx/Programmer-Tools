@@ -37,14 +37,14 @@ A collection of useful tools for developers, built with React and Tailwind CSS. 
 ## Prerequisites
 
 Before you begin, ensure you have installed:
-- Node.js (version 14 or higher)
+- Node.js (version 16 or higher)
 - npm (usually comes with Node.js)
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/programmer-tools.git
+git clone https://github.com/shawnyxx/programmer-tools.git
 cd programmer-tools
 ```
 
@@ -125,7 +125,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Icons by [Lucide Icons](https://lucide.dev/)
 - UI components inspired by [Tailwind CSS](https://tailwindcss.com/)
 - HTML to Canvas conversion by [HTML2Canvas](https://html2canvas.hertzen.com/)
-
-## Support
-
-For support, please open an issue in the GitHub repository or contact [your-email@example.com](mailto:your-email@example.com).
