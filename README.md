@@ -10,7 +10,7 @@ This repository contains various tools that I developed to assist with my comput
 - **More coming**
 
 ## Access
-``bash
+``
 programmer-tools.ecxogames.ca
 ``
 
