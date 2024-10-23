@@ -1,8 +1,24 @@
 # Programmer Tools
 
-This is just some tools I made to make my computer science semester easier.
+Welcome to the Programmer Tools repository! This collection of tools is designed to make your computer science studies easier and more efficient.
 
-If you want to be a collaborator, pleae visit this section of the repo and add a comment: https://github.com/shawnyxx/Programmer-Tools/discussions/2
+## Introduction
+This repository contains various tools that I developed to assist with my computer science coursework. Feel free to explore and use them to make your own studies more manageable.
 
-site link: http://programme-tools.ecxogames.ca/
-github link: https://shawnyxx.github.io/Programmer-Tools/
+## Features
+- **Snippet**: Brief description of Tool 1.
+- **More coming**
+
+## Access
+``bash
+programmer-tools.ecxogames.ca
+``
+
+## Contributing
+We welcome contributions! If you want to be a collaborator, please visit the [discussion section](https://github.com/shawnyxx/Programmer-Tools/discussions/2) of the repo and add a comment.
+
+## Links
+- [Website](http://programme-tools.ecxogames.ca/)
+
+@shawnyxx
+@cryp0zaurus - did I misspell it
